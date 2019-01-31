@@ -29,3 +29,42 @@
   font-weight: bolder;
   margin-top:100px !important;
 }
+
+//* Extra Small devices (tablets, 768px and up) col-sm */
+@media (max-width: 767px) {
+  .logo{
+    width:200px;
+    height: 45px;
+    margin-top:35px;
+  }
+  .h1-responsive{
+    text-align: center !important;
+  }
+  .c-img{
+    height:600px !important;
+  }
+}
+/* Small devices (tablets, 768px and up) col-md  collapses here*/
+@media (min-width: 768px) and (max-width: 992px) {
+  .logo{
+    width:200px;
+    height: 45px;
+    margin-top:35px;
+  }
+  .h1-responsive{
+    text-align: center !important;
+  }
+  .c-img{
+    height:600px !important;
+  }
+}
+
+/* Medium devices (desktops, 992px and up)  col-lg */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1920px) {
+
+}
